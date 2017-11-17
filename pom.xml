@@ -2,15 +2,22 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>p9yp9y.vaos</groupId>
-	<version>0.0.3</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<artifactId>vaos-hello-app</artifactId>
 	<packaging>jar</packaging>
+
+    <repositories>
+        <repository>
+			<id>bintray</id>
+			<url>https://dl.bintray.com/p9yp9y/vaos</url>
+		</repository>
+    </repositories>
 
 	<dependencies>
 		<dependency>
 			<groupId>p9yp9y.vaos</groupId>
 			<artifactId>vaos-dev</artifactId>
-			<version>0.0.4-SNAPSHOT</version>
+			<version>0.0.7-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	
