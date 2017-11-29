@@ -1,5 +1,7 @@
 package p9yp9y.vaos.hello;
 
+import com.vaadin.server.Resource;
+
 import de.steinwedel.messagebox.MessageBox;
 import p9yp9y.vaos.VaosApplication;
 
@@ -11,7 +13,13 @@ public class HelloApplication implements VaosApplication {
 	}
 	
     @Override	
-	public String getName() {
+	public String getApplicationName() {
 	    return "Hello!";
+	}
+
+	@Override
+	public Resource getApplicationIcon() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
