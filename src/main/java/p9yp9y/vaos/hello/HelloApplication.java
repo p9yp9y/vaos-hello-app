@@ -4,9 +4,7 @@ import com.vaadin.server.Resource;
 
 import de.steinwedel.messagebox.MessageBox;
 import p9yp9y.vaos.VaosApplication;
-import p9yp9y.vaos.VaosMainApplication;
 
-@VaosMainApplication
 public class HelloApplication implements VaosApplication {
     @Override
 	public void main(String[] args) {
